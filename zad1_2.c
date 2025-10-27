@@ -5,8 +5,8 @@ int licznik = 0;
 
 void funkcja() {
     // Zmienna lokalna – tworzona na nowo przy każdym wywołaniu funkcji
-    int licznik_funkcji = 5;
-    printf("W funkcji: licznik_funkcji = %d\n", licznik_funkcji);
+    int licznik = 5;
+    printf("W funkcji: licznik_funkcji = %d\n", licznik);
 }
 
 int main() {
